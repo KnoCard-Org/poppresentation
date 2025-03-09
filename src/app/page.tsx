@@ -9,13 +9,14 @@ export default function Home() {
       </div>
       <Link
         href={'https://knocard.poppresentation.com/'}
+        className="z-10"
+
       >
         <Image
           src={'/home.svg'}
           width={600}
           height={450}
           alt="poppresntations"
-          className="z-10"
         />
       </Link>
     </div>
