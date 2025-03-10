@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen bg-[url('/bg.jpg')] flex justify-center items-center relative">
+    <div className="w-screen h-screen bg-[url('/bg.jpg')] bg-center flex justify-center items-center relative">
       <div className="fixed w-screen h-screen bg-black/70">
 
       </div>
